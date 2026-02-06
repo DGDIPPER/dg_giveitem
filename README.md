@@ -1,11 +1,17 @@
 # dg_itemlist
-Qbox admin item list menu with search, images, and give-to-player support using ox_lib and ox_inventory.
-ShowCase Video https://www.youtube.com/watch?v=prX5Yp1XT8E
-Add This to your CFG For Perms
 
-#dg_itemlist Item perms 
+A sleek **Qbox** admin item list command that opens an **ox_lib** menu showing every **ox_inventory** item with images, built-in search, and quick give-to-player functionality.
+
+## Showcase
+https://www.youtube.com/watch?v=prX5Yp1XT8E
+
+## Requirements
+- qbx_core
+- ox_lib
+- ox_inventory
+
+## Permissions
+Add this to your `permissions.cfg` (or wherever you keep ACE permissions):
+
+```cfg
 add_ace group.admin qbx_itemslist.items allow
-
-Command TO show menu itemlist
-
-You can Edit The Item size in the Config and more 
